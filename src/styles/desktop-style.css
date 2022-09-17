@@ -1,0 +1,65 @@
+@media (min-width: 769px) {
+  #app {
+    width: 100%;
+    height: 100%;
+  }
+  .wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .card__container {
+    padding: 0;
+    margin: 0;
+    width: 33.333%;
+    height: 100%;
+    background-image: url("@/images/bg-main-desktop.png");
+  }
+  .card-front {
+    width: 25vw;
+    height: 14vw;
+    right: -20%;
+    top: auto;
+    bottom: 45%;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 0px 28px 0px rgba(34, 60, 80, 0.2);
+  }
+  .card-back {
+    position: absolute;
+    margin: 0;
+    width: 25vw;
+    height: 14vw;
+    top: 60%;
+    right: -30%;
+    -webkit-box-shadow: 0px 0px 28px 0px rgba(34, 60, 80, 0.2);
+            box-shadow: 0px 0px 28px 0px rgba(34, 60, 80, 0.2);
+  }
+  .form {
+    margin: 0;
+    width: 66.666%;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  form {
+    width: 40%;
+    margin: 0 auto;
+  }
+  .complete {
+    height: 25%;
+    width: 25%;
+    margin: 0;
+    margin: auto auto;
+  }
+  .complete img {
+    width: 60px;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=desktop-style.css.map */
