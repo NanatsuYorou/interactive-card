@@ -1,4 +1,4 @@
-# Mobile interactive card on Vue
+# interactive-card
 
 ## Project setup
 ```
